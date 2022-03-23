@@ -30,7 +30,7 @@ const currentUrl = new URL(window.location.href);
 const forwarderOrigin =
   currentUrl.hostname === 'localhost' ? 'http://localhost:9010' : undefined;
 
-const { isMetaMaskInstalled } = MetaMaskOnboarding;
+const isMetaMaskInstalled = () => window.ethereum && window.ethereum.isPortal;
 
 // Dapp Status Section
 const networkDiv = document.getElementById('network');
