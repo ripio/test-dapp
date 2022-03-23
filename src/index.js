@@ -536,7 +536,7 @@ const initialize = async () => {
                 address: contract.address,
                 symbol: _tokenSymbol,
                 decimals: _decimalUnits,
-                image: 'https://metamask.github.io/test-dapp/metamask-fox.svg',
+                image: 'https://ripio-test-dapp.netlify.app/portal-icon.png',
               },
             },
           });
